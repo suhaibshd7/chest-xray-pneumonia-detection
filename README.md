@@ -35,7 +35,7 @@ Early and accurate pneumonia detection is crucial for patient outcomes. This AI 
 
 | Metric | Score | Clinical Interpretation |
 |--------|-------|------------------------|
-| **Accuracy** | 81.89% | Overall correctness across all predictions |
+| **Accuracy** | 85.26% | Overall correctness across all predictions |
 | **Precision** | 77.76% | When model predicts pneumonia, it's correct 78% of the time |
 | **Recall** | 99.49% | Detects 99.5% of actual pneumonia cases ✅ |
 | **F1 Score** | 0.8729 | Balanced harmonic mean of precision and recall |
@@ -53,7 +53,7 @@ Actual
 
 **Clinical Trade-off Analysis:**
 - ✅ **High Recall Priority:** Only 2 missed pneumonia cases (0.5% false negative rate)
-- ⚠️ **False Positives:** 111 false alarms (acceptable for screening tool)
+- ⚠️ **False Positives:** 87 false alarms (acceptable for screening tool)
 - 💡 **Design Decision:** Prioritized catching all pneumonia cases over minimizing false positives, as missing pneumonia is clinically more dangerous than a false alarm
 
 ---
